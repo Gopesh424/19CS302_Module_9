@@ -54,20 +54,33 @@ RegisterNumber:
 ```
 
 ## Output:
+
 push(10);
+
 push(20);
+
 push(30);
-display();
-peek();
-push(40);
-pop();
-display();
-pop();
-pop();
+
 display();
 
-30 20 10 30 stack is full
-20 10 stack is empty
+peek();
+
+push(40);
+
+pop();
+
+display();
+
+pop();
+
+pop();
+
+display();
+
+
+30   20   10   30   stack is full
+
+20   10  stack is empty
 
 
 ## Result:
